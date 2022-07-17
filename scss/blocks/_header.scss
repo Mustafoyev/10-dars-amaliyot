@@ -1,0 +1,100 @@
+.site-header {
+	padding: 38px 0;
+	background-color: #040d21;
+}
+
+.site-header__inner {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	display: inline-block;
+	margin-right: 158px;
+}
+
+.navbar {
+	z-index: 1;
+}
+
+.navbar__list {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+}
+
+.navbar__item + .navbar__item {
+	margin-left: 50px;
+}
+
+.navbar__link {
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 21px;
+	color: #e3e3e3;
+	text-decoration: none;
+}
+
+.tel-email {
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	margin-left: 72px;
+}
+
+.tel {
+	position: relative;
+	margin-bottom: 11px;
+	padding-left: 36px;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 21px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.tel::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 18px;
+	height: 18px;
+	background-image: url('../images/icon_телефон.svg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	content: '';
+}
+
+.tel::after {
+	position: absolute;
+	top: 7px;
+	right: 58px;
+	width: 8px;
+	height: 5px;
+	background-image: url('../../images/icon_стрелка.svg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	content: '';
+}
+
+.email {
+	position: relative;
+	padding-left: 36px;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 21px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.email::before {
+	position: absolute;
+	top: 4px;
+	left: 0;
+	width: 18px;
+	height: 18px;
+	background-image: url('../images/icon_конверт.svg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	content: '';
+}

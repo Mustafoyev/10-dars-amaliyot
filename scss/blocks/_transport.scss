@@ -1,0 +1,177 @@
+.transport {
+	padding: 150px 0 170px;
+}
+
+.transport__text-wrapper {
+	width: 1120px;
+	margin: 0 auto;
+	margin-bottom: 116px;
+}
+
+.transport__text {
+	margin: 0;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 140%;
+	text-align: center;
+	color: #353535;
+}
+
+.transport__title {
+	margin: 0;
+	margin-bottom: 90px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 37px;
+	color: #2e2e2e;
+}
+
+.transport__list {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.transport__item {
+	position: relative;
+	width: 630px;
+	padding: 55px 45px 55px 55px;
+	background-color: #f2f2f2;
+	border-radius: 17px;
+}
+
+.transport__item:nth-child(1) {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.transport__item:nth-child(2) {
+	margin-bottom: 20px;
+}
+
+.transport__item:nth-child(3) {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.transport__item:nth-child(4) {
+	margin-bottom: 20px;
+}
+
+.transport__item:nth-child(5) {
+	margin-right: 20px;
+}
+
+.transport__item::after {
+	position: absolute;
+	right: calc(50% - 260px);
+	bottom: calc(50% - 70px);
+	width: 194px;
+	height: 143px;
+	background-image: url('../images/перевозки-1.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	content: '';
+}
+
+.transport__item:nth-child(2):after {
+	width: 188px;
+	height: 126px;
+	background-image: url('../images/перевозки-2.png');
+}
+
+.transport__item:nth-child(3):after {
+	width: 164px;
+	height: 153px;
+	background-image: url('../images/перевозки-3.png');
+}
+
+.transport__item:nth-child(4):after {
+	width: 158px;
+	height: 155px;
+	background-image: url('../images/перевозки-4.png');
+}
+
+.transport__item:nth-child(5):after {
+	width: 151px;
+	height: 134px;
+	background-image: url('../images/перевозки-5.png');
+}
+
+.item--active {
+	padding: 39px 55px;
+	background-color: #ffffff;
+	border: 2px solid #f2f2f2;
+	border-radius: 17px;
+}
+
+.item--active::after {
+	display: none;
+}
+
+.transport__item-title {
+	margin: 0;
+	margin-bottom: 25px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 140%;
+	color: #2e2e2e;
+}
+
+.tranport__item-text--active {
+	display: inline-block;
+	margin: 0;
+	margin-right: 30px;
+}
+
+.item__link {
+	position: relative;
+	display: block;
+	margin-bottom: 20px;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 21px;
+	text-decoration: none;
+	color: #2e2e2e;
+}
+
+.item__link::after {
+	position: absolute;
+	top: calc(50% - 2px);
+	left: calc(50% - 165px);
+	width: 8px;
+	height: 5px;
+	background-image: url('../../images/icon_стрелка-вниз.svg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	content: '';
+}
+
+.item__link-tr {
+	display: inline-block;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 21px;
+	text-decoration: none;
+	border-bottom: 1px solid #3284ff;
+	color: #3284ff;
+}
+
+.text-bottom-wrapper {
+	width: 847px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.tarnsport__text-bottom {
+	margin: 0;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 140%;
+	text-align: center;
+	color: #353535;
+}

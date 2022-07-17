@@ -1,0 +1,155 @@
+.hero {
+	position: relative;
+	padding: 70px 0 172px 0;
+	background-color: #040d21;
+}
+
+.hero::before {
+	position: absolute;
+	top: calc(50% - 440px);
+	right: calc(50% - 940px);
+	width: 1163px;
+	height: 753px;
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	content: '';
+}
+
+.hero__inner {
+	position: relative;
+}
+
+.hero__title-wrapper {
+	width: 704px;
+	margin-bottom: 41px;
+}
+
+.hero__title {
+	margin: 0;
+	font-weight: 800;
+	font-size: 70px;
+	line-height: 85px;
+	color: #f3f3f3;
+}
+
+.hero__text-wrapper {
+	width: 370px;
+	max-width: 417px;
+	margin-bottom: 20px;
+}
+
+.hero__text {
+	margin: 0;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 140%;
+	color: #dbdbdb;
+}
+
+.hero__list {
+	margin: 0;
+	margin-bottom: 60px;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+}
+
+.hero__item {
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 21px;
+	color: #e3e3e3;
+}
+
+.hero__item + .hero__item {
+	margin-left: 55px;
+}
+
+.dot {
+	display: inline-block;
+	margin-right: 15px;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: #e3e3e3;
+}
+
+.hero__link {
+	padding: 20px;
+	width: 201px;
+	max-width: 270px;
+	background-color: #3284ff;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 21px;
+	color: #ffffff;
+}
+
+.hero__form {
+	position: absolute;
+	right: calc(50% - 640px);
+	bottom: calc(50% - 392px);
+	display: flex;
+	align-items: center;
+	padding: 20px 80px;
+	width: 100%;
+	max-width: 1280px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+}
+
+.form-text-wrapper {
+	margin-right: 150px;
+}
+
+.form-str {
+	display: block;
+	margin-bottom: 6px;
+	font-weight: 600;
+	font-size: 19px;
+	line-height: 23px;
+	color: #353535;
+}
+
+.form-text {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	color: #818181;
+}
+
+.hero__input {
+	padding: 20px 0 20px 30px;
+	background-color: #ffffff;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+}
+
+.hero__input + .hero__input {
+	margin-left: 20px;
+}
+
+.hero__input::placeholder {
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	color: #818181;
+}
+
+.form-btn {
+	margin-left: 40px;
+	border: none;
+	border-bottom: 1px solid #3284ff;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 21px;
+	color: #3284ff;
+}
